@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"/></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="javascript.js"></script>
+
+</head>
+<body>
+ 
+
+<div class="container">
+<center><div class="content">
+<h3>Quote Request!</h3>
+<table id="table2" width="500px" height="300px">
+
+<tr>
+<td id="src">Source:</td>
+<td>
+	<input type="text" id="sname" placeholder="Enter Source Name">
+ 	<i class="fa fa-check" id="success"></i>
+ 	<i class="fa fa-times" id="error"></i>
+ 	<span id="p1"></span>
+</td>
+</tr>
+
+<tr>
+<td>Quote:</td>
+<td>
+	<textarea id="quote" placeholder="Enter Quote Here..."></textarea> 
+	<i class="fa fa-check" id="success1"></i>
+    <i class="fa fa-times" id="error1"></i>
+    <span id="p2"></span>
+</td>
+</tr>
+
+<tr>
+<td colspan="2"><input type="submit" value="Submit" id="submit" onclick="fun()"></td>
+</tr>
+</table>
+</div>
+</center>
+</div>
+</body>
+</html>
